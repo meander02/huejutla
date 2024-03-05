@@ -5,10 +5,8 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [],
-  exports: [],
   imports: [
-    CommonModule,
-
+    CommonModule
   ]
 })
-export class CoreModule { }
+export class MaterialModule { }
