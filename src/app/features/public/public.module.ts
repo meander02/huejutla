@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { PublicRoutingModule } from './public-routing.module';
@@ -23,5 +23,7 @@ import { NotFoundView } from './view/not-found/not-found.view';
     CommonModule,
     PublicRoutingModule
   ]
+  , schemas: [CUSTOM_ELEMENTS_SCHEMA], // Add this line to include CUSTOM_ELEMENTS_SCHEMA
+
 })
 export class PublicModule { }
